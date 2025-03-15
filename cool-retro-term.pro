@@ -1,3 +1,8 @@
+QMAKE_CXX = clazy
+CLAZY_CHECKS += qt6-deprecated-api-fixes,qt6-header-fixes
+
+
+
 TEMPLATE = subdirs
 
 CONFIG += ordered
